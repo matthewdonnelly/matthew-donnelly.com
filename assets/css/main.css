@@ -1323,7 +1323,6 @@ input, select, textarea {
 				max-height: 40rem;
 				overflow: hidden;
 				background-color: rgba(0, 0, 0, 0.2); /* Black with 20% transparency */
-    				background-blend-mode: multiply; /* This will blend the color with the gradient */
 
 			}
 
