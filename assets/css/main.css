@@ -1668,7 +1668,6 @@ input, select, textarea {
     -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
     transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
     padding: 1rem 0;
-    margin-top:8rem;
     background-color: transparent /*rgba(27, 31, 34, 0.85); Adjust as needed */
     text-align: center;
 }
