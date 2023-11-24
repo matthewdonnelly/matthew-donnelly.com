@@ -1691,3 +1691,29 @@ input, select, textarea {
                 .social-footer ul li a:hover {
                     color: #c0c0c0; /* Adjust as needed */
                 }
+
+.social-footer {
+    /* Existing styling */
+    -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+    -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+    -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+    transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+    /* Add other styling as needed */
+}
+
+body.is-article-visible .social-footer {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+    -moz-filter: blur(0.1rem);
+    -webkit-filter: blur(0.1rem);
+    -ms-filter: blur(0.1rem);
+    filter: blur(0.1rem);
+    opacity: 0;
+}
+
+body.is-preload .social-footer {
+    opacity: 0;
+}
+
