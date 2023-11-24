@@ -1659,3 +1659,35 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* Social Media Footer */
+
+.social-footer {
+    -moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+    -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+    -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+    transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+    padding: 1rem 0;
+    background-color: rgba(27, 31, 34, 0.85); /* Adjust as needed */
+    text-align: center;
+}
+
+    .social-footer ul {
+        padding: 0;
+        list-style: none;
+        display: inline-flex;
+        justify-content: center;
+    }
+
+        .social-footer ul li {
+            padding: 0 10px;
+        }
+
+            .social-footer ul li a {
+                color: #ffffff; /* Adjust as needed */
+                font-size: 1.5rem; /* Adjust as needed */
+            }
+
+                .social-footer ul li a:hover {
+                    color: #c0c0c0; /* Adjust as needed */
+                }
