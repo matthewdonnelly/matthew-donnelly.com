@@ -1329,15 +1329,6 @@ input, select, textarea {
 				}
 
 
-
-		    #header .content .inner h1,
-		    #header .content .inner p {
-			background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent black background */
-		    }
-
-
-
-
 			#header .content p {
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
