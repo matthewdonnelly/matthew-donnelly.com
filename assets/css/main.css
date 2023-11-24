@@ -1331,6 +1331,19 @@ input, select, textarea {
 					margin-bottom: 0;
 				}
 
+
+
+		    #header .content .inner h1,
+		    #header .content .inner p {
+			background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent black background */
+			display: inline-block; /* Makes the background wrap around the text */
+			padding: 10px; /* Adds some padding around the text */
+			border-radius: 5px; /* Optional: Rounded corners for the background */
+		    }
+
+
+
+
 			#header .content p {
 				text-transform: uppercase;
 				letter-spacing: 0.2rem;
