@@ -1078,7 +1078,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: rgba(255, 255, 0, 0.9) 
-			background-color: #ffffff;
+			/*background-color: #ffffff;*/
 			color: rgba(255, 255, 0, 0.9) !important; /*#1b1f22*/
 			font-weight: 600;
 		}
