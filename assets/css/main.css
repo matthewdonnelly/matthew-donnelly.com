@@ -1723,3 +1723,13 @@ body.is-article-visible .social-footer {
 body.is-preload .social-footer {
     opacity: 0;
 }
+
+
+
+#personal img {
+    width: 100%;  /* This will make the image fill the width of the container */
+    height: auto; /* This will maintain the aspect ratio */
+    display: block; /* This will prevent inline elements from affecting the layout */
+    margin: 0 auto; /* This will center the image if it's smaller than the container */
+}
+
