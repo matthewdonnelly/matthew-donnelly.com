@@ -1679,7 +1679,7 @@ input, select, textarea {
     -webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
     -ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
     transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-    padding: 1rem 0;
+    padding: 0rem 0;
     background-color: transparent /*rgba(27, 31, 34, 0.85); Adjust as needed */
     text-align: center;
 }
@@ -1692,7 +1692,7 @@ input, select, textarea {
     }
 
         .social-footer ul li {
-            padding: 0 0px;
+            padding: 0 10px;
         }
 
             .social-footer ul li a {
