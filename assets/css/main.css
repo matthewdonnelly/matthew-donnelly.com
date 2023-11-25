@@ -1328,6 +1328,12 @@ input, select, textarea {
 
 			}
 
+				#header .content .inner p {
+					margin-top: 0.5rem; /* Adjust the top margin */
+					margin-bottom: 0.5rem; /* Adjust the bottom margin */
+				}
+
+
 				#header .content .inner > :last-child {
 					margin-bottom: 0;
 				}
