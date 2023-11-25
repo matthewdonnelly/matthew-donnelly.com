@@ -1028,7 +1028,7 @@ input, select, textarea {
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
-		background-color: rgba(0, 0, 0, 0.3); 
+		background-color: rgba(0, 0, 0, 0.9); 
 	}
 
 		input[type="submit"]:hover,
