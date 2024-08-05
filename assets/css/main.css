@@ -1739,3 +1739,30 @@ body.is-preload .social-footer {
     margin: 0 auto; /* This will center the image if it's smaller than the container */
 }
 
+.social-footer {
+    text-align: center;
+    padding: 1rem 0; /* Adjust padding as needed */
+}
+
+.social-footer ul {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.social-footer ul li {
+    padding: 0 10px;
+}
+
+.social-footer ul li a {
+    color: #ffffff; /* Adjust as needed */
+    font-size: 1.5rem; /* Adjust as needed */
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.social-footer ul li a:hover {
+    color: #c0c0c0; /* Adjust as needed */
+}
+
+
